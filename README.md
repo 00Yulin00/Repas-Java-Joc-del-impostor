@@ -1,6 +1,21 @@
 # 🕵️ Joc de l’Impostor - Java
 
-Aplicació en **Java** per gestionar una partida del joc **El Joc de l’Impostor**, desenvolupada com a activitat de repàs de programació orientada a objectes.
+Aplicació en **Java** per gestionar una partida del joc **El Joc de l’Impostor**, desenvolupada com a activitat de repàs de Programació Orientada a Objectes.
+
+---
+
+## 📁 Estructura del Projecte
+
+Els fitxers estan organitzats de la següent manera:
+
+```
+src/
+ ┣ Jugador.java
+ ┣ Joc.java
+ ┣ Main.java
+ ┗ VistoException.java
+README.md
+```
 
 ---
 
@@ -14,19 +29,7 @@ En cada partida:
 - Els jugadors normals veuen la paraula secreta
 - L’impostor veu la paraula **"IMPOSTOR"**
 
-L’objectiu és gestionar correctament la partida fins a la fase final.
-
----
-
-## 🧱 Estructura del Projecte
-
-El projecte està format per les següents classes:
-
-📦 package inicials  
- ┣ 📄 Jugador.java  
- ┣ 📄 Joc.java  
- ┣ 📄 Main.java  
- ┗ 📄 README.md  
+L’aplicació controla la partida fins que tots els jugadors han vist la seua paraula.
 
 ---
 
@@ -39,8 +42,8 @@ Representa un jugador de la partida.
 - `paraula` → paraula assignada
 - `vist` → indica si ha vist la paraula
 
-### Mètodes principals
-- `veureParaula()` → retorna la paraula o llança excepció si ja l’ha vista
+### Funcions
+- `veureParaula()` → mostra la paraula o llança excepció si ja s’ha vist
 - `toString()` → mostra l’estat del jugador
 
 Exemple:
@@ -55,30 +58,31 @@ Andrea (visualitzat)
 
 Gestiona tota la partida.
 
-### Atributs
-- `Jugador[] jugadors`
-- `numJugadors`
-- `paraulaSecreta`
-
-### Mètodes principals
-- `mostrarJugadors()` → llista jugadors
+### Funcions
+- `mostrarJugadors()` → mostra la llista de jugadors
 - `veureParaulaJugador(int posicio)` → mostra la paraula individual
 - `totsHanVist()` → comprova si tots han vist la paraula
-- `nickImpostor()` → retorna el nick de l’impostor
+- `nickImpostor()` → retorna el nick del impostor
 
 ---
 
 ## 🚀 Classe `Main`
 
-Controla l’execució del programa.
+Controla el programa.
 
 ### Funcionalitats
 - Demanar número de jugadors
 - Demanar paraula secreta
 - Assignar impostor aleatori
-- Permetre veure la paraula individualment
+- Mostrar paraules individualment
 - Evitar veure-la dues vegades
 - Mostrar impostor al final
+
+---
+
+## ⚠️ Classe `VistoException`
+
+Excepció personalitzada que es llança quan un jugador intenta veure la paraula més d’una vegada.
 
 ---
 
@@ -92,8 +96,6 @@ Introdueix la paraula secreta: Patata
 1. Alex (pendent de veure)
 2. Maria (pendent de veure)
 3. Joan (pendent de veure)
-
-Selecciona jugador per veure la paraula:
 ```
 
 Si intenta veure-la dues vegades:
@@ -120,11 +122,10 @@ Voleu veure qui és l’impostor? (S/N)
 
 ## 📦 Lliurament
 
-- Crear un `.zip` amb tots els fitxers `.java`
-- Totes les classes dins d’un **package amb les vostres inicials**
+- Crear un `.zip` amb tots els `.java`
 - El codi ha de **compilar correctament**
 - Bones pràctiques obligatòries:
-  - Noms clars de variables
+  - Variables amb noms clars
   - Codi ordenat
   - Comentaris
 
