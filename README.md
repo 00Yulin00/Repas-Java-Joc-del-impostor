@@ -122,4 +122,5 @@ Voleu veure qui és l’impostor? (S/N)
 
 ## ✨ Autor
 Enunciado: Profes de ins Cami de Mar
+
 Código y readme: Zhenhao Yu
