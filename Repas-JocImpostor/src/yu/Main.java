@@ -77,7 +77,7 @@ public class Main {
                 	throw new Exception();
                 }
             } catch (Exception e) {
-                System.out.println("Error: Introdueix un número vàlid o una pocicion valida.");
+                System.out.println("Error: Introdueix un número vàlid o una pocició vàlid.");
             }
 		}
 		System.out.println("\n");
