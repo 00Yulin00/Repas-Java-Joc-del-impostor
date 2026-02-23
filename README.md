@@ -120,17 +120,6 @@ Voleu veure qui és l’impostor? (S/N)
 
 ---
 
-## 📦 Lliurament
-
-- Crear un `.zip` amb tots els `.java`
-- El codi ha de **compilar correctament**
-- Bones pràctiques obligatòries:
-  - Variables amb noms clars
-  - Codi ordenat
-  - Comentaris
-
----
-
 ## ✨ Autor
-
-Projecte acadèmic de repàs de Programació en Java.
+Enunciado: Profes de ins Cami de Mar
+Código y readme: Zhenhao Yu
