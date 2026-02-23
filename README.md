@@ -15,6 +15,7 @@ src/
  ┣ Main.java
  ┗ VistoException.java
 README.md
+Repàs AEA2.pdf
 ```
 
 ---
