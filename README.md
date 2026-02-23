@@ -9,13 +9,15 @@ Aplicació en **Java** per gestionar una partida del joc **El Joc de l’Imposto
 Els fitxers estan organitzats de la següent manera:
 
 ```
-src/
- ┣ Jugador.java
- ┣ Joc.java
- ┣ Main.java
- ┗ VistoException.java
-README.md
-Repàs AEA2.pdf
+Repas-Java-Joc-del-impostor
+│
+├── src
+│   └── yu
+│       ├── Jugador.java
+│       ├── Joc.java
+│       ├── Main.java
+│       └── VistoException.java
+└── README.md
 ```
 
 ---
