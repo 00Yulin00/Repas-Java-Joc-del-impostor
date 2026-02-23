@@ -43,7 +43,7 @@ public class Joc {
     
     public String nickImpostor() {
         for (int i = 0; i < jugadors.length; i++) {
-            if (jugadors[i].getParaula().equals("IMPOSTOR")) {
+            if (jugadors[i] != null || jugadors[i].getParaula().equals("IMPOSTOR")) {
                 return jugadors[i].getNick();
             }
         }
