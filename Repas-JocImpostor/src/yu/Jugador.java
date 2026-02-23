@@ -1,4 +1,4 @@
-
+package yu;
 public class Jugador {
 	private String nick;
 	private String paraula;
