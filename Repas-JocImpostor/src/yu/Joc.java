@@ -1,3 +1,4 @@
+package yu;
 public class Joc {
     private Jugador[] jugadors;
     private int numJugadors;
