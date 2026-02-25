@@ -1,7 +1,7 @@
 # 🕵️ Joc de l’Impostor - Java
 
 Aplicació en **Java** per gestionar una partida del joc **El Joc de l’Impostor**, desenvolupada com a activitat de repàs de Programació Orientada a Objectes.
-
+https://github.com/00Yulin00/Repas-Java-Joc-del-impostor
 ---
 
 ## 📁 Estructura del Projecte
